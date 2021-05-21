@@ -1,22 +1,7 @@
 .bg-lightBlue{
-    background-color: rgb(161, 222, 233);
+    background-color: rgba(187, 166, 194, 0.638);
 }
-@media (max-width: 400px) {
-    .containButtons{
-        width: 80%;
-        
-    }
-    .buttonSize{
-      
-        font-size: 0.7rem;
-    }
- }
 
- @media (min-width: 700px) {
-    .containButtons{
-        width: 50%;
-    }
- }
  .link{
      text-decoration: none !important;
  }

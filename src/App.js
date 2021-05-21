@@ -23,6 +23,17 @@ function App() {
             <Home />
 
           </Route>
+      <Route path="/Form" exact>
+           <Header/>
+          <div className='vh-100'>   <h2 className='m-3'>Choose your post for edit</h2></div>
+       
+
+          </Route>
+          <Route path="/Form/:id" exact>
+           <Header/>
+          <IsForm/>
+
+          </Route>
          
         
       </Switch>
